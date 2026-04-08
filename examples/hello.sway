@@ -1,0 +1,9 @@
+// Hello World example
+func greet(name: String) -> String {
+    return "Hello, " 
+}
+
+func main() -> Void {
+    let greeting = greet(name: "World")
+    print(greeting)
+}

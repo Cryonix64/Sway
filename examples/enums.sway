@@ -1,0 +1,11 @@
+// Enum example
+enum Color {
+    Red,
+    Green,
+    Blue
+}
+
+func main() -> Void {
+    let myColor: Color = Color.Red
+    print(myColor)
+}

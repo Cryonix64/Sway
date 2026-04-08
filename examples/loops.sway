@@ -1,0 +1,9 @@
+// Loops
+func main() -> Void {
+    var i: Int = 0
+    
+    while i < 5 {
+        print(i)
+        i = i + 1
+    }
+}

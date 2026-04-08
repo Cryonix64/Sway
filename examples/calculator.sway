@@ -1,0 +1,29 @@
+// Calculator program
+func add(a: Int, b: Int) -> Int {
+    return a + b
+}
+
+func subtract(a: Int, b: Int) -> Int {
+    return a - b
+}
+
+func multiply(a: Int, b: Int) -> Int {
+    return a * b
+}
+
+func divide(a: Int, b: Int) -> Int {
+    if b == 0 {
+        return 0
+    }
+    return a / b
+}
+
+func main() -> Void {
+    let x: Int = 15
+    let y: Int = 3
+    
+    print(add(a: x, b: y))
+    print(subtract(a: x, b: y))
+    print(multiply(a: x, b: y))
+    print(divide(a: x, b: y))
+}

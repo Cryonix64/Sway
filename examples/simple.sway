@@ -1,0 +1,9 @@
+// Simple number printer
+func printNumber(n: Int) -> Void {
+    print(n)
+}
+
+func main() -> Void {
+    let num: Int = 42
+    printNumber(n: num)
+}

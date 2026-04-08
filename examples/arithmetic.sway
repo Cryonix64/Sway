@@ -1,0 +1,13 @@
+// Basic arithmetic and variables
+func main() -> Void {
+    let x: Int = 10
+    let y: Int = 20
+    let sum = x + y
+    
+    print(sum)
+    
+    var counter: Int = 0
+    counter = counter + 1
+    
+    print(counter)
+}

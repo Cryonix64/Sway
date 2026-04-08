@@ -1,0 +1,10 @@
+// Struct declaration and usage
+struct Person {
+    name: String,
+    age: Int
+}
+
+func main() -> Void {
+    let person: Person = Person()
+    print(person.name)
+}
